@@ -95,12 +95,7 @@ a:active {
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 }
-
-*::before {
-    content: "";
-}
-
-*::after {
+*, *::before, *::after {
     content: "";
 }
 
