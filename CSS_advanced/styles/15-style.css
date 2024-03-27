@@ -96,8 +96,12 @@ a:active {
     --section-title-color: var(--color-black);
 }
 
-* {
-    box-sizing: border-box;
+*::before {
+    content: "";
+}
+
+*::after {
+    content: "";
 }
 
 html {
