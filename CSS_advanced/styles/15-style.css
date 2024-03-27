@@ -96,7 +96,7 @@ a:active {
     --section-title-color: var(--color-black);
 }
 *, *::before, *::after {
-    content: "";
+    box-sizing: border-box;
 }
 
 html {
