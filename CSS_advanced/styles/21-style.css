@@ -248,5 +248,5 @@ ul.row {
 /*selecciona todas las clases que inician por col*/
 [class^="col-"] {
     float: left;
-    padding: calc(var(--root-padding) / 2); /* Divide el padding del elemento raíz por 2 */
+    padding: 50%; /* Divide el padding del elemento raíz por 2 */
 }
