@@ -245,8 +245,9 @@ ul.row {
     display: table;
     clear: both;
 }
+
 /*selecciona todas las clases que inician por col*/
 [class^="col-"] {
     float: left;
-    padding: 50%; 
+    padding: 0.5rem;
 }
