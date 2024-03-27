@@ -15,6 +15,7 @@
 }
 html {
     scroll-behavior: smooth;
+    font-size: 6.25rem;
 }
 body{
     color: var(--text-color);
