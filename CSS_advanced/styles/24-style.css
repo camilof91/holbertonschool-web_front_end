@@ -272,7 +272,7 @@ ul.row {
 
 .card-services a {
     display: block; /* Hacer que los elementos a sean de nivel de bloque */
-    padding: calc(var(--root-padding) * 2); /* Establecer el relleno a 2 veces el elemento raíz */
+    padding: 2rem; /* Establecer el relleno a 2 veces el elemento raíz */
     background-color: var(--color-light-grey);
 }
 
