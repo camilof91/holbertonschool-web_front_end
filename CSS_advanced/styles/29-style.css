@@ -65,12 +65,12 @@ a:hover {
 }
 
 a:active {
-    background-color: var(--color-light-grey);
+    background-color: var(--color-light-grey); /* Aquí se cambia a color-light-grey */
+    color: var(--color-white); /* Aquí se establece el color blanco */
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
     font-size: var(--button-font-size);
-    color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
 
@@ -269,9 +269,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.nav .nav-item:hover .nav-link {
-    color: var(--color-white);
-}
 
 ul.row {
     margin: 0;
