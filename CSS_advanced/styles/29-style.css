@@ -254,23 +254,19 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link:hover {
-    color: var(--color-white); /* Edita la propiedad nav-item-link-hover estableciendo su valor a la variable color-white */
-}
-
 .nav .nav-link::before {
-    content: ''; /* Establece el contenido de los pseudo-elementos ::before a vacío */
-    position: absolute; /* Posiciona absolutamente los elementos pseudo ::before */
-    top: 0; /* Establece la posición vertical de los elementos en 0 */
-    left: 0; /* Establece la posición horizontal de los elementos en 0 */
-    background-color: var(--color-white); /* Establece el color de fondo de los elementos en el valor de la variable color-white */
-    width: 0; /* Establece el ancho de los elementos en 0 */
-    height: 20%; /* Establece la altura de los elementos al 20% del valor del elemento raíz */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
-    background-color: var(--color-primary); /* Establece el color de fondo de los elementos en el valor de la variable color-primary */
-    width: 100%; /* Establece el ancho de los elementos al 100% */
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 ul.row {
